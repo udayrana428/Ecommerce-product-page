@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/desktop.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <script src="https://kit.fontawesome.com/543ade074f.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="nav container">
+    <div class="leftnav">
+      <a href="#" class="logo">Sneakers</a>
+      <ul class="navbar">
+        <li><a href="#" class="nav-list">Collections</a></li>
+        <li><a href="#" class="nav-list">Men</a></li>
+        <li><a href="#" class="nav-list">Women</a></li>
+        <li><a href="#" class="nav-list">About</a></li>
+        <li><a href="#" class="nav-list">Contact</a></li>
+      </ul>
+    </div>
+    <div class="rightnav">
+      <div class="cart-body cart-body-hide">
+        <div class="c-heading">
+          <h3 >cart</h3>
+        </div>
+        <hr>
+        <ul class="cart-items1">
+          <li class="empty-li empty">Your cart is empty</li>
+          
+        </ul>
+        
+      </div>
+      <div class="cart nav-list-right"><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+      <div class="profile nav-list-right"><a href="#"><i class="fas fa-user-circle"></i></a></div>
+      <div class="modal hide-modal">
+        <div class="modal-img img-size">
+          <img class="modal-image img-size" src="./images/image-product-1.jpg" alt="" srcset="">
+        </div>
+        <i class="fas fa-times-circle"></i>
+        <i class="fas fa-arrow-circle-left"></i>
+        <i class="fas fa-arrow-circle-right"></i>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <section class="item-gallery-description">
+    <div class="left">
+      <div class="item-image main-image image1"><img class="img-size" src="./images/image-product-1.jpg" alt="" srcset=""></div>
+      <div class="item-image image2"><img class="img-size" src="./images/image-product-1-thumbnail.jpg" alt=""
+          srcset=""></div>
+      <div class="item-image image3"><img class="img-size" src="./images/image-product-2-thumbnail.jpg" alt=""
+          srcset=""></div>
+      <div class="item-image image4"><img class="img-size" src="./images/image-product-3-thumbnail.jpg" alt=""
+          srcset=""></div>
+      <div class="item-image image5"><img class="img-size" src="./images/image-product-4-thumbnail.jpg" alt=""
+          srcset=""></div>
+    </div>
+    
+    <div class="right">
+      <div class="company">Sneaker Company</div>
+      <div class="title">Fall Limited Edition Sneakers</div>
+      <div class="desc">These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</div>
+      <div class="value">
+        <div class="price">$125.00</div>
+        <div class="offer">50%</div>
+      </div>
+      <div class="mrp">$250.00</div>
+      <div class="buttons">
+        <button class="remove btn">-</button>
+        <div class="noofitem">0</div>
+        <button class="add btn">+</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
